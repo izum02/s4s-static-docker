@@ -263,7 +263,20 @@ const customJa = {
     "tw.variablesTab.search": "検索",
     "tw.variablesTab.sprite": "このスプライトの変数",
     "tw.variablesTab.global": "すべてのスプライトの変数",
-    "tw.variablesTab.showLarge": "非常に大きな値を表示するにはクリックしてください"
+    "tw.variablesTab.showLarge": "非常に大きな値を表示するにはクリックしてください",
+    "pm.fonts.system2": "フォントをダウンロードする必要はありませんが、すべてのユーザーに対して正しく表示されるとは限りません。",
+    "pm.fonts.custom2": "フォント管理モーダルの一部です。ローカルファイルからフォントを追加するオプションの下に表示されます。{formats}は、'.ttf, .otf'のようなカンマ区切りのファイル形式リストに置き換えられます。",
+    "pm.settingsModal.gameplay": "おすすめ",
+    "pm.settingsModal.optimizations": "最適化",
+    "pm.settingsModal.screenResolution": "スクリーンサイズ",
+    "pm.settingsModal.unsupported": "サポート終了",
+    "pm.settingsModal.unsupportedWarning": "ここにある設定はサポート対象外であり、いつでも機能しなくなる可能性があります。これらの設定は、より良い方法があるか、他の拡張機能と併用すると頻繁に機能しなくなるため、ここに記載されています。",
+    "pm.settingsModal.title": "高度な設定",
+    "pm.settingsModal.oobRendering": "画面外レンダリングを無効にする",
+    "pm.settingsModal.oobRenderingHelp": "有効にすると、画面外にあるすべてのスプライトはレンダリングされません。",
+    "pm.settingsModal.dangerousOptimizations": "危険な最適化を有効にする",
+    "pm.settingsModal.dangerousOptimizationsHelp": "特定の数値を事前計算し、特定の操作に高速な手法を使用します。ただし、特定の数値入力欄に特殊テキストを入力するといった小さな機能が失われます。すべてのプロジェクトがこの設定に対応しているわけではありません。",
+    "pm.settingsModal.stageSize": "ステージの大きさ"
   }
 };
 
