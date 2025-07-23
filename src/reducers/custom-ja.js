@@ -276,7 +276,8 @@ const customJa = {
     "pm.settingsModal.oobRenderingHelp": "有効にすると、画面外にあるすべてのスプライトはレンダリングされません。",
     "pm.settingsModal.dangerousOptimizations": "危険な最適化を有効にする",
     "pm.settingsModal.dangerousOptimizationsHelp": "特定の数値を事前計算し、特定の操作に高速な手法を使用します。ただし、特定の数値入力欄に特殊テキストを入力するといった小さな機能が失われます。すべてのプロジェクトがこの設定に対応しているわけではありません。",
-    "pm.settingsModal.stageSize": "ステージの大きさ"
+    "pm.settingsModal.stageSize": "ステージの大きさ",
+    "gui.defaultProject.variable": "変数"
   }
 };
 
