@@ -211,7 +211,7 @@ const customJa = {
     "pm.menuBar.moreSettings": "高度な設定",
     "pm.terms": "利用規約",
     "pm.guiDefaultTitle": "エディター",
-    "pm.customExtensionModal.rememberChoice": "プロジェクトのすべての拡張機能にこの操作を実行する"
+    "pm.customExtensionModal.rememberChoice": "プロジェクトのすべての拡張機能にこの操作を実行する",
     "gui.libraryTags.all": "すべて",
     "gui.libraryTags.animals": "動物",
     "gui.libraryTags.dance": "ダンス",
@@ -257,7 +257,9 @@ const customJa = {
     "gui.libraryTags.noisemaker": "音",
     "gui.libraryTags.metal": "金属音",
     "gui.libraryTags.monster": "モンスター",
-    "gui.libraryTags.math": "数学"
+    "gui.libraryTags.math": "数学",
+    "gui.library.filterPlaceholder": "検索",
+    "gui.library.allTag": "すべて"
   }
 };
 
