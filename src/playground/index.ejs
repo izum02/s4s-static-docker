@@ -43,8 +43,14 @@
       (function() {
         document.querySelector('#splash-content').style.display = 'block';
         <% if (!htmlWebpackPlugin.options.noTheme) { %>
-        try {var localTheme = localStorage.getItem('tw:theme');} catch (e) {}
-        if (localTheme ? localTheme === 'dark' : window.matchMedia('(prefers-color-scheme: dark)').matches) document.querySelector('#splash').setAttribute('splash-theme', 'dark');
+        try { var localTheme = localStorage.getItem('tw:theme'); } catch (e) {}
+      
+        var iframeTheme = new URLSearchParams(window.location.search).has('IframeTheme');
+      
+        document.querySelector('#splash').setAttribute(
+          'splash-theme',
+          iframeTheme ? 'light' : (localTheme ? (localTheme === 'dark' ? 'dark' : 'light') : (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'))
+        );
         <% } %>
       })();
     </script>
