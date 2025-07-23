@@ -357,7 +357,7 @@
     "editor-block-chomping/@description": "Scratch 2.0 のように、C ブロックをブロックにラップするときに拡張します。",
     "toolbox-category-drag/@name": "ブロックパレット内のドラッグ可能なカテゴリー",
     "toolbox-category-drag/@description": "ブロックパレット内のカテゴリをクリックして押したままにすることで、並べ替えることができます。",
-    "toolbox-category-drag/@notice-draggable-incompatibility": "このアドオンは、現在、「2列カテゴリメニュー」アドオンと一緒に有効にすると多少バグが発生します。",
+    "toolbox-category-drag/@info-draggable-incompatibility": "このアドオンは、現在、「2列カテゴリメニュー」アドオンと一緒に有効にすると多少バグが発生します。",
     "editor-animations/@name": "エディターアニメーション",
     "editor-animations/@description": "エディターのさまざまな要素にスムーズなアニメーションを追加します！",
     "editor-animations/@settings-name-animateButtons": "ボタンをアニメーション化",
