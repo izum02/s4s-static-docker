@@ -259,7 +259,7 @@ const customJa = {
     "gui.libraryTags.monster": "モンスター",
     "gui.libraryTags.math": "数学",
     "gui.library.filterPlaceholder": "検索",
-    "gui.library.allTag": "すべて"
+    "gui.library.allTag": "すべて",
     "tw.variablesTab.search": "検索",
     "tw.variablesTab.sprite": "このスプライトの変数",
     "tw.variablesTab.global": "すべてのスプライトの変数",
