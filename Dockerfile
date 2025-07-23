@@ -17,7 +17,7 @@ RUN PNPM_SKIP_BUILDS_APPROVAL=true pnpm install --prefer-offline --strict-peer-d
 # OpenSSL の互換オプションを有効化
 #ENV NODE_OPTIONS="--openssl-legacy-provider"
 
-RUN pnpm install scratch-vm@git+https://huggingface.co/datasets/soiz1/s4s-vm
+RUN PNPM_SKIP_BUILDS_APPROVAL=true pnpm install scratch-vm@git+https://huggingface.co/datasets/soiz1/s4s-vm
 # コンテナの起動時にサーバーを実行
 CMD ["npm", "start"]
 
