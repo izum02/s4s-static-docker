@@ -710,14 +710,23 @@ class MenuBar extends React.Component {
                                             <MenuItem
                                                 onClick={this.props.onStartFolderUpload}
                                             >
-                                                {"Load from a folder"}
+                                                <FormattedMessage
+                                                    defaultMessage="Load from a folder"
+                                                    description="Menu item to load a project from a folder"
+                                                    id="pm.menuBar.loadFromFolder"
+                                                />
+
                                             </MenuItem>
                                             <SB3Downloader>{(_className, downloadProject, extended) => (
                                                 <React.Fragment>
                                                     <MenuItem
                                                         onClick={this.getSaveToComputerHandler(extended.saveAsFolder)}
                                                     >
-                                                        {"Export project to folder"}
+                                                            <FormattedMessage
+                                                                defaultMessage="Export project to folder"
+                                                                description="Menu item to export project to a folder"
+                                                                id="pm.menuBar.exportToFolder"
+                                                            />
                                                     </MenuItem>
                                                 </React.Fragment>
                                             )}</SB3Downloader>
