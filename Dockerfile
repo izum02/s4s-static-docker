@@ -12,7 +12,7 @@ RUN mkdir -p /app/translations && chmod -R 777 /app/translations
 RUN chmod -R 777 /app
 
 # 依存関係をインストール（競合を無視）
-RUN pnpm install --prefer-offline --strict-peer-dependencies=false
+RUN PNPM_SKIP_BUILDS_APPROVAL=true pnpm install --prefer-offline --strict-peer-dependencies=false
 
 # OpenSSL の互換オプションを有効化
 #ENV NODE_OPTIONS="--openssl-legacy-provider"
