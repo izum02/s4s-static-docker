@@ -382,8 +382,8 @@
     "editor-animations/@settings-select-animationDir-In": "入り",
     "editor-animations/@settings-select-animationDir-Out": "出",
     "editor-animations/@settings-select-animationDir-InOut": "両方",
-    "editor-animations/@notice-reduced-motion-notice": "このアドオンは、システムでアニメーションが無効になっている場合は効果がありません。有効にする方法は https://mgik.dev/turn-on-motion を参照してください。",
-    "editor-animations/@notice-animation-support": "一部のアニメーションタイプは方向の指定に対応していないため、方向が無視される場合があります。",
+    "editor-animations/@info-reduced-motion-notice": "このアドオンは、システムでアニメーションが無効になっている場合は効果がありません。有効にする方法は https://mgik.dev/turn-on-motion を参照してください。",
+    "editor-animations/@info-animation-support": "一部のアニメーションタイプは方向の指定に対応していないため、方向が無視される場合があります。",
     "paint-tool-panel/@name": "コスチュームツールパネル",
     "paint-tool-panel/@description": "オブジェクトの変換とプロパティを手動で編集するためのツール メニューをコスチューム エディターに追加します。"
 }
