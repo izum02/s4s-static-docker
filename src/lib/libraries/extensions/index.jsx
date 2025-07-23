@@ -2183,7 +2183,7 @@ let menuItems = [
                 id="gui.extension.sharkpoolExt.name"
             />
         ),
-        href: "https://soiz1-sharkpool-extension.hf.space?originPM=true",
+        href: "https://soiz1-sharkpool-extensions.hf.space?originPM=true",
         extensionId: "special_sharkpoolExtensionLibrary",
         iconURL: sharkpoolGalleryIcon,
         description: (
