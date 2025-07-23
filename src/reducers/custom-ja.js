@@ -260,6 +260,10 @@ const customJa = {
     "gui.libraryTags.math": "数学",
     "gui.library.filterPlaceholder": "検索",
     "gui.library.allTag": "すべて"
+    "tw.variablesTab.search": "検索",
+    "tw.variablesTab.sprite": "このスプライトの変数",
+    "tw.variablesTab.global": "すべてのスプライトの変数",
+    "tw.variablesTab.showLarge": "非常に大きな値を表示するにはクリックしてください"
   }
 };
 
