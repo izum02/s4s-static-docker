@@ -352,6 +352,7 @@
     "waveform-chunk-size/@name": "高音質波形エディタ",
     "waveform-chunk-size/@description": "パフォーマンスを犠牲にして、サウンドエディターの波形プレビューの品質を設定できるようにします。",
     "waveform-chunk-size/@info-qualityWarning": "数値が低いほど、波形の作成に使用されるサンプル数が多くなり、パフォーマンスに影響してエディターがクラッシュする可能性があります。",
+    "waveform-chunk-size/@settings-name-quality": "(n)番目ごとにサンプルを使用する",
     "editor-block-chomping/@name": "ラップされたCブロックを拡張する",
     "editor-block-chomping/@description": "Scratch 2.0 のように、C ブロックをブロックにラップするときに拡張します。",
     "toolbox-category-drag/@name": "ブロックパレット内のドラッグ可能なカテゴリー",
@@ -382,5 +383,7 @@
     "editor-animations/@settings-option-animationDir-Out": "出",
     "editor-animations/@settings-option-animationDir-InOut": "両方",
     "editor-animations/@notice-reduced-motion-notice": "このアドオンは、システムでアニメーションが無効になっている場合は効果がありません。有効にする方法は https://mgik.dev/turn-on-motion を参照してください。",
-    "editor-animations/@notice-animation-support": "一部のアニメーションタイプは方向の指定に対応していないため、方向が無視される場合があります。"
+    "editor-animations/@notice-animation-support": "一部のアニメーションタイプは方向の指定に対応していないため、方向が無視される場合があります。",
+    "paint-tool-panel/@name": "コスチュームツールパネル",
+    "paint-tool-panel/@description": "オブジェクトの変換とプロパティを手動で編集するためのツール メニューをコスチューム エディターに追加します。"
 }
