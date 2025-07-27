@@ -27,7 +27,11 @@ jobs:
       with:
         node-version: 20.18.1
     - name: Install dependencies and build site
-      run: sed -i 's/--port \$PORT/--port 3000/g' package.json && set NODE_ENV=production && NODE_OPTIONS=--openssl-legacy-provider npx webpack --config webpack.config.js
+      run: |
+          sed -i 's/--port \$PORT/--port 3000/g' package.json
+          export NODE_ENV=production
+          NODE_OPTIONS=--openssl-legacy-provider npx webpack --config webpack.config.js
+
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v3
       with:
