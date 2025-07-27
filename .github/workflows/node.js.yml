@@ -29,7 +29,8 @@ jobs:
     - name: Install dependencies and build site
       run: |
         sed -i 's/--port \$PORT/--port 3000/g' package.json
-        npm install --save-dev webpack-cli
+        npm install --prefer-offline --no-audit --legacy-peer-deps
+        npm install scratch-vm@git+https://huggingface.co/datasets/soiz1/s4s-vm
         export NODE_ENV=production
         NODE_OPTIONS=--openssl-legacy-provider npx webpack --config webpack.config.js
 
