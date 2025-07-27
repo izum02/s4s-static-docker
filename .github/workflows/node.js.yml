@@ -25,9 +25,9 @@ jobs:
     - name: Install Node.js
       uses: actions/setup-node@v3
       with:
-        node-version: 16.x
+        node-version: 20.18.1
     - name: Install dependencies and build site
-      run: npm i -g pnpm@v6 && pnpm up && pnpm i --shamefully-hoist --force && NODE_ENV=production webpack --bail
+      run: sed -i 's/--port \$PORT/--port 3000/g' package.json && set NODE_ENV=production && NODE_OPTIONS=--openssl-legacy-provider npx webpack --config webpack.config.js
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v3
       with:
